@@ -14,6 +14,12 @@
 - 網頁瀏覽器，例如: Chrome, Firefox, Edge。
 - Google Gemini API 金鑰。
 
+## 使用實例
+
+主頁畫面截圖
+
+![screenshot](screenshot.jpg)
+
 ## 本地建置
 
 ### 需求
@@ -23,5 +29,11 @@
 ### 步驟
 
 1. Install dependencies: `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
+2. Set the `GEMINI_API_KEY` in ".env.local" to your Gemini API key
 3. Run the app: `npm run dev`
+
+### 設置 API 金鑰步驟
+
+1. 創建 ".env.local" 於專案根目錄。
+2. 將 `GEMINI_API_KEY=YOUR_GEMINI_API_KEY` 添加至檔案。
+3. 替換 `YOUR_GEMINI_API_KEY` 成為你實際的 Gemini API 金鑰。
