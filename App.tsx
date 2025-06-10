@@ -100,9 +100,6 @@ const App: React.FC = () => {
       <main className="container mx-auto max-w-3xl w-full bg-white/80 backdrop-blur-md shadow-2xl rounded-xl p-6 md:p-10 my-8">
         {renderStepContent()}
       </main>
-      <footer className="text-center text-sm text-gray-600 mt-4 pb-4">
-        <p>&copy; {new Date().getFullYear()} AI 旅遊規劃助手. Powered by Gemini API.</p>
-      </footer>
     </div>
   );
 };
