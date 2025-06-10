@@ -1,0 +1,5 @@
+{
+  "name": "AI 旅遊規劃助手 (AI Travel Planner)",
+  "description": "一個 AI 旅遊規劃助手，可根據使用者輸入的需求描述，自動搜尋地點、考量地理位置與活動順序，產生可選的景點列表供使用者調整，最終生成一份完整的行程計畫。",
+  "requestFramePermissions": []
+}
